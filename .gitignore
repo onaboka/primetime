@@ -1,0 +1,13 @@
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# PHPUnit / coverage
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Composer
+vendor/

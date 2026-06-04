@@ -1,0 +1,7 @@
+services:
+    php:
+        build: ./docker/php
+        container_name: php-prime
+        volumes:
+            - ./:/var/www/html
+        working_dir: /var/www/html
