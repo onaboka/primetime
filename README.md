@@ -47,6 +47,14 @@ Example:
 docker exec -it primetime-php bash
 ```
 
+Some slim PHP-FPM images don't include bash at all — only sh. 
+If the name/ID is correct and it still fails, try:
+
+```
+docker exec -it <container_ID> sh
+```
+
+
 ### 4. Run PHPUnit tests
 
 ```
